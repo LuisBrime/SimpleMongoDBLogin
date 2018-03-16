@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Signup</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <section class="cont s">
+            <h1>Signup Page</h1>
+            <p>If you are registered already, go to <a href="login.html">login</a></p>
+        </section>
+        <section class="cont s">
+            <form action="signup.php" method="get">
+                <div class="r">
+                <label>Username</label>
+                <input type="text" name="username" />
+                </div>
+                
+                <div class="r">
+                <label>Password</label>
+                <input type="password" name="password" />
+                </div>
+                
+                <div class="r">
+                <label>Name</label>
+                <input type="text" name="name" />
+                </div>
+                    
+                <div class="r">
+                <label>Age</label>
+                <input type="number" name="age" />
+                </div>
+                
+                <div class="r">
+                <label>Photo</label>
+                <input type="text" name="img" />
+                </div>
+                
+                <input type="submit" name="submit" value="Submit" class="button"/>
+            </form>
+        </section>
+    </body>
+</html>
